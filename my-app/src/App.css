@@ -1,0 +1,132 @@
+
+.background-img {
+  background-image: url("/public/bg-image.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('/public/bg-image.avif') no-repeat center center fixed;
+background-size: cover;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('/public/bg-image.avif') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  width: 400px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+
+.login-box h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.login-box p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Buttons */
+.signin-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #fcb69f;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signin-btn:hover {
+  background: #f08c75;
+}
+
+/* Extras */
+.extras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.extras label {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.extras input {
+  margin-right: 5px;
+}
+
+.forgot-password {
+  font-size: 0.9rem;
+  color: #fcb69f;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Or Text */
+.or-text {
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+}
+
+
